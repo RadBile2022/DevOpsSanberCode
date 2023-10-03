@@ -1,2 +1,7 @@
-Nama : Wahyu Wiradarma
-DevOps : Batch-50
+Data Peserta Bootcamp Digital Skill Devops
+1. Nama: Wahyu Wiradarma
+2. Email: 
+3. Sistem Operasi yang digunakan: Windows, Linux
+4. Akun Gitlab/Github: RadBile2022
+5. Akun Telegram: 
+6. Bahasa Pemrograman/Stack Yang dikuasai: Java (Spring), Flutter
