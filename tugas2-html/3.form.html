@@ -1,0 +1,53 @@
+<!-- form.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Akun Baru!</title>
+</head>
+<body>
+    <h1>Register Akun Baru!</h1>
+	<h2>Isilah form dibawah ini</h2>
+    <form action="process.html" method="POST">
+        <label for="first_name">First Name:</label>  </br>
+        <input type="text" id="first_name" name="first_name" required><br><br>
+
+        <label for="last_name">Last Name:</label>  </br>
+        <input type="text" id="last_name" name="last_name" required><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label><br><br>
+
+        <label for="nationality">Nationality:</label>
+        <select id="nationality" name="nationality">
+            <option value="Indonesian">Indonesian</option>
+            <!-- Tambahkan opsi lain sesuai kebutuhan -->
+        </select><br><br>
+
+        <label for="focus">Sedang Fokus Belajar:</label>
+        <select id="belajar" name="belajar">
+            <option value="Reactjs">Reactjs</option>
+            <!-- Tambahkan opsi lain sesuai kebutuhan -->
+        </select><br><br>
+		
+        <label for="language">Language Spoken:</label>
+        <input type="checkbox" id="male_language" name="language" value="Male">
+        <label for="male_language">Male</label>
+        <input type="checkbox" id="female_language" name="language" value="Female">
+        <label for="female_language">Female</label>
+        <input type="checkbox" id="other_language" name="language" value="Other">
+        <label for="other_language">Other</label><br><br>
+
+        <label for="description">Deskripsi Diri Saya:</label><br>
+        <textarea id="description" name="description" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
